@@ -1,16 +1,16 @@
 <h1 align = "center"><img src="logoparagit.png" ></h1>
 
-## :page_facing_up: Sobre
+# :page_facing_up: Sobre
 
 Este projeto foi criado para as atividades do **Bootcamp LaunchBase**. Onde foram feitos alguns desafios para testar e praticar os conhecimetos adquiridos durante cada módulo.
 
-### Módulo 01 - Introdução a Programação WEB 
+---
+
+## Módulo 01 - Introdução a Programação WEB 
 
 O módulo 01 apresentou os conceitos básicos da programação com Javascrpit
 
----
-
-#### :rocket: Desafios Módulo 01
+### :rocket: Desafios Módulo 01
 
  - Primeiros passos com JS
    - Variáveis
