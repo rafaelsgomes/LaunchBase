@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+:root {
+    --white-primary: #d3fbd8;
+    --white-secondary: #cdc8d7;
+    --whithe-tertiary: #f8ebff;
+    --purple-primary: #9c7fe8;
+    --purple-secondary: #2d253f;
+    --purple-tertiary: #9c7cf7;
+    --purple-quaternary: #4c4260;
+    --grey-primary: #1e1927;
+    --grey-secondary: #676370;
+    --grey-tertiary: #9b95a4;
+    --black-primary: #17131e;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--grey-primary);
+}
+
+header {
+    padding: 30px;
+    background-color: var(--black-primary);
+}
+
+header .links a {
+    color: #fff;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--white-primary);
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.links a:hover {
+    color: var(--purple-tertiary);
+    transition: color 400ms;
+}
+
+.about {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid var(--white-primary);
+}
+
+.about h1 {
+    font-size: 44px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 24px 0;
+    color: var(--white-primary);
+}
+
+.about h2 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: normal;
+    margin: 24px 0;
+    color: var(--purple-primary);
+    opacity: 0.4;
+}
+
+.about h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 32px 0 16px 0;
+    color: var(--white-secondary);
+}
+
+.about ul {
+    display: flex;
+    justify-content: center;
+}
+
+.about ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    color: var(--whithe-tertiary);
+    opacity: 0.3;
+}
+
+.about ul li:hover {
+    cursor: pointer;
+    color: var(--white-secondary);
+    opacity: 1;
+}
+
+#media a {
+    color: var(--purple-primary);
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+#media a:hover {
+    color: var(--whithe-tertiary);
+}
+
+
+/*** CARDS ***/
+
+.cards-section {
+    color: #fff;
+}
+
+.cards-section h1 {
+    font-size: 46px;
+    text-align: center;
+    margin: 24px 0 32px;
+}
+
+.cards {
+    width: 75%;
+    margin: 0 auto 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card {
+    text-align: center;
+    background-color: var(--black-primary);
+    padding: 32px 16px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: 500ms;
+}
+
+.card:hover {
+    border: 2px solid #7159c1;
+    transform: scale(1.05);
+}
+
+#launchbase.card:hover {
+    border: 2px solid #f4942c;
+}
+
+#gostack.card:hover {
+    border: 2px solid #50fa7b;
+}
+
+.card .card-number {
+    color: #7159c1;
+    font-weight: bold;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 54px;
+    border-radius: 50%;
+}
+
+#starter .card-number {
+    border: 2px solid #7159c1;
+}
+
+#launchbase .card-number {
+    border: 2px solid #f4942c;
+    color: #f4942c;
+}
+
+#gostack .card-number {
+    border: 2px solid #50fa7b;
+    color: #50fa7b;
+}
+
+.card .card-image {
+    margin-bottom: 32px;
+}
+
+.card p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.card p span {
+    font-weight: bold;
+    color: #7159c1;
+}
+
+#launchbase p span {
+    color: #f4942c;
+}
+
+#gostack p span {
+    color: #50fa7b;
+}
+
+.card .card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.card-info .curse-price {
+    background-color: #282a36;
+    border-radius: 12px;
+}
+
+
+/*** Modal ***/
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 75%;
+    height: 75%;
+    margin: 12.5vh auto;
+    position: relative;
+}
+
+.modal .modal-changes {
+    text-align: end;
+    cursor: pointer;
+}
+
+.modal .modal-changes span {
+    margin: 8px;
+}
+
+.modal .modal-content iframe {
+    width: 95%;
+    height: 90%;
+    margin-left: 2.5%;
+    position: absolute;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal.maxmize {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

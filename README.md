@@ -29,7 +29,23 @@ O módulo 01 apresentou os conceitos básicos da programação com Javascrpit
    - Padronização
    - Escrita
 
---- 
+---
+
+### :rocket: Desafios Módulo 02
+
+ - Primeiro HMTL
+   - Favion
+   - Links
+   - Styles
+ - Página de descrição
+   - Imagens
+   - Tags de cabeçalho
+   - Listas Ordenadas e Não-Ordenadas
+ - Página de cursos e iframe
+   - CSS grid
+   - Modal
+   - Iframe 
+---
 
 ## :memo: Licença
 
