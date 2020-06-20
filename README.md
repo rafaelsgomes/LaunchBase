@@ -31,9 +31,13 @@ O módulo 01 apresentou os conceitos básicos da programação com Javascrpit
 
 ---
 
+## Módulo 02 - Iniciando no Front-End
+
+O módulo 02 deu inicio ao desenvolvimento front-end utilizando HTML5, CSS3 e Javascript
+
 ### :rocket: Desafios Módulo 02
 
- - Primeiro HMTL
+ - Primeiro HTML
    - Favion
    - Links
    - Styles
