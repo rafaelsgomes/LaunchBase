@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <!-- Curso -->
+    <div class="course-page">
+        <h1>{{course.id}}</h1>
+        <div class="course-iframe">
+            <iframe src="https://rocketseat.com.br/{{course.id}}" frameborder="0"></iframe>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <!-- Sobre -->
+    <div class="about">
+        <img src="/assets/{{data.logo_url}}" alt="Rocketseat Logo">
+        <h1>{{data.company}}</h1>
+        <h2>{{data.description}}</h2>
+        <h3>Principais tecnologias ensinadas</h3>
+        <ul>
+        {% for tech in data.techs %}
+            <li>{{tech}}</li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Midia -->
+    <div id="media">
+        <div class="links">
+        {% for link in data.links %}
+            <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+        {% endfor %}
+            
+        </div>
+    </div>
+{% endblock %}

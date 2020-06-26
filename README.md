@@ -1,4 +1,4 @@
-<h1 align = "center"><img src="logoparagit.png" ></h1>
+<h1 align="center"><img src="logoparagit.png" ></h1>
 
 # :page_facing_up: Sobre
 
@@ -29,6 +29,8 @@ O módulo 01 apresentou os conceitos básicos da programação com Javascrpit
    - Padronização
    - Escrita
 
+#### [Módulo 01](./desafio-introducao)
+
 ---
 
 ## Módulo 02 - Iniciando no Front-End
@@ -49,6 +51,30 @@ O módulo 02 deu inicio ao desenvolvimento front-end utilizando HTML5, CSS3 e Ja
    - CSS grid
    - Modal
    - Iframe 
+
+#### [Módulo 02](./desafio-frontend)
+
+---
+
+## Módulo 03 - Iniciando no Back-End
+
+O módulo 03 deu inicio ao desenvolvimento back-end utilizando NodeJS, Template Engine e outras ferramentas para o desenvolvimento da aplicação.
+
+### :rocket: Desafios Módulo 03
+
+ - Primeiro Servidor
+   - Criação do servidor com Express
+   - Rotas da aplicação
+   - Reaproveitamento de código com Template Engine
+ - Aquivos Nunjucks e Dados dinâmicos
+   - Atualização dos arquivos .njk
+   - Dados no Back-End e não no Front-End
+ - Página de descrição do curso
+   - Redirecionamento da URL com JavaScript
+   - Utilizando "req.params" para recuparar a rota fornecida 
+
+#### [Módulo 03](./desafio-backend)
+
 ---
 
 ## :memo: Licença

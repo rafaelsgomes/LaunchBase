@@ -1,0 +1,33 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Desafios LaunchBase - Cursos</title>
+{% endblock %}
+
+{% block content %}
+
+    <!-- Cards -->
+    <section class="cards-section">
+        <h1>Conteúdos</h1>
+        <div class="cards">
+        {% for course in courses %}
+            <div id="{{course.id}}" class="card">
+                <div class="card-number">{{course.number}}</div>
+                <div class="card-image">
+                    <img src="https://skylab.rocketseat.com.br/static/{{course.image_url}}" alt="{{course.id}} Logo">
+                </div>
+                <p>
+                    {{course.card_description}}</p>
+                <div class="card-info">
+                    <p>{{course.modules}}</p>
+                    <p class="curse-price">{{course.price}}</p>
+                </div>
+            </div>
+        {% endfor %}
+            
+        </div>
+    </section>
+
+    <script src="./JS/script.js"></script>
+{% endblock %}

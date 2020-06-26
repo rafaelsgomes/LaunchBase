@@ -1,0 +1,8 @@
+.error404{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.error404 h1{
+    font-size: 32px;
+}
