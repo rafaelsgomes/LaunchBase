@@ -77,6 +77,41 @@ O módulo 03 deu inicio ao desenvolvimento back-end utilizando NodeJS, Template 
 
 ---
 
+## Módulo 04 - Controle de Academia
+
+Durante o módulo 04 foi desenvolvido um sistema de controle de academia que permite o cadastro, edição e exclusão de instrutores e membros.
+
+### :rocket: Desafios Módulo 04
+
+ - Header
+   - Criação do servidor com Express
+   - Rotas da aplicação
+ - Card do Professor
+   - Criação do card com os dados do professor
+   - Utilização das libs browser-sync e npm-run-all para rodar os processos da aplicação em paralelo 
+ - Formulário e Rota de Cadastro do Professor
+   - Criação do formulário de cadastramento com os campos  específicos
+   - Criação da rota do tipo POST e criação do arquivo JSON
+   - Atualização do arquivo JSON com writeFile da lib fs
+   - Redirecionamento para a página de listagem de professores após a validação e salvamento
+ - Apresentação, Edição e Formatação dos Dados de um Professor
+   - Criação de duas rotas para apresentação e edição dos dados 
+   - Criação e utilização de funções para formatação dos dados
+ - HTTP: PUT e DELETE
+   - Criação da rota para receber os dados editados no formulário
+   - Criação da rota para deletar o professor no arquivo JSON
+   - Utilização da lib method-override para sobreescrever o método POST pelos métodos PUT e DELETE
+ - Listagem de professores
+   - Criação da rota de apresentação dos professores salvos no arquivos JSON
+   - Criação da tabela que irá apresentar os professores
+ - Estruturando Estudantes
+   - Reaproveitamento da estrutura já criada para os professores
+   - Ajustes finais
+
+#### [Módulo 04](./Gym-Manager)
+
+---
+
 ## :memo: Licença
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório.

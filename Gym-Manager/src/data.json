@@ -1,0 +1,57 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Leticia",
+      "avatar_url": "https://images.unsplash.com/photo-1553531580-a000ac8df244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=282&q=80",
+      "birth": 807235200000,
+      "gender": "F",
+      "services": "Musculação, Yoga, Natação",
+      "created_at": 1594925036456
+    },
+    {
+      "id": 2,
+      "name": "Carlos Silva",
+      "avatar_url": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "birth": 678672000000,
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1594925122461
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+      "name": "Rose",
+      "email": "rose@contato.com",
+      "birth": 862790400000,
+      "gender": "F",
+      "blood": "B1",
+      "weight": "70",
+      "height": "170"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80",
+      "name": "André",
+      "email": "andre@contato.com.br",
+      "birth": 976233600000,
+      "gender": "M",
+      "blood": "AB1",
+      "weight": "85",
+      "height": "180"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1583500178964-98351600826a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "name": "John",
+      "email": "john@contato.com",
+      "birth": 596419200000,
+      "gender": "M",
+      "blood": "AB1",
+      "weight": "95",
+      "height": "185"
+    }
+  ]
+}
