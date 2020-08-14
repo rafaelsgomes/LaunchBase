@@ -112,6 +112,31 @@ Durante o módulo 04 foi desenvolvido um sistema de controle de academia que per
 
 ---
 
+
+## Módulo 05 - Persistindo Dados da Aplicação
+
+Durante o módulo 05 foi iniciado o estudo da persistência de dados da aplicação através da integração com o banco de dados PostgreSQL e a utilização das primeiras query's assim como o entendimento do funcionamento de relacionamento das tabelas.
+
+### :rocket: Desafios Módulo 05
+
+- Refatorando aplicação e configurando o BD 
+   - Reestruturação das pastas da aplicação
+   - Refatoração do código para integração com o banco de bados
+   - Criação da base de dados e das tabelas
+ - Interagindo com o BD 
+   - Criação do CRUD 
+   - Utilização das query's para atualizar e deletar registros no banco de dados
+ - Relacionamentos e filtros no BD
+   - Relacionando duas tabelas
+   - Criação do método para buscar e retornar o que foi digitado
+ - Paginação de resultados no BD 
+   - Criação a paginação dos dados a serem exibidos limitando a um número por página (back-end)
+   - Criação do algoritmo para realizar a páginação no front-end
+
+#### [Módulo 05](./Gym-Manager-Postgresql)
+
+---
+
 ## :memo: Licença
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório.
