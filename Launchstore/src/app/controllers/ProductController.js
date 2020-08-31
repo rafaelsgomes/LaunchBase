@@ -21,7 +21,7 @@ module.exports = {
                 return res.send('Please, fill all fields!')
             }
         }
-
+        
         if(req.files.length == 0) return res.send("Please, send at least one image")
 
         let results = await Product.create(req.body)
