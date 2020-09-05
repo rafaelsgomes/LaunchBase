@@ -7,8 +7,8 @@
 
 <div class="item">
     <div>Email</div>
-    <div>
-        <input type="email" name="email" placeholder="Digite seu email" value='{{user.email}}'>
+    <div class="input">
+        <input type="email" name="email" placeholder="Digite seu email" value='{{user.email}}' onblur="Validate.apply(this, 'isEmail')">
     </div>
 </div>
 
@@ -23,7 +23,7 @@
 <div class="item">
     <div>Repetir Senha</div>
     <div class="input">
-        <input type="passwordRepeat" name="password" placeholder="Repita a senha digitada" >
+        <input type="password" name="passwordRepeat" placeholder="Repita a senha digitada" >
     </div>
 </div>
 {% endif %}
@@ -31,14 +31,14 @@
 <div class="item">
     <div>CPF ou CNPJ</div>
     <div class="input">
-        <input type="text" name="cpf_cnpj" placeholder="Digite seu documento" value='{{user.cpf_cnpj}}'>
+        <input type="text" name="cpf_cnpj" placeholder="Digite seu documento" value='{{user.cpf_cnpj}}' onkeydown="Mask.apply(this, 'cpfCnpj')" onblur="Validate.apply(this, 'isCpfCnpj')">
     </div>
 </div>
 
 <div class="item">
     <div>CEP</div>
     <div class="input">
-        <input type="text" name="cep" placeholder="99999-999" value='{{user.cep}}'>
+        <input type="text" name="cep" placeholder="99999-999" value='{{user.cep}}' onkeydown="Mask.apply(this, 'cep')" onblur="Validate.apply(this, 'isCep')">
     </div>
 </div>
 
