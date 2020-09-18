@@ -26,6 +26,6 @@ const {isLoggedRedirectToUsers, onlyUsers} = require('../app/middlewares/session
     
     routes.get('/', onlyUsers, UserValidator.show, UserController.show)
     routes.put('/', UserValidator.update, UserController.update)
-    // routes.delete('/', UserController.delete)
+    routes.delete('/', UserController.delete)
 
     module.exports = routes

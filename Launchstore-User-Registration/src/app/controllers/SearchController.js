@@ -1,8 +1,6 @@
 const { formatPrice } = require('../../lib/utils')
 
 const Product = require('../models/Product')
-const File = require('../models/File')
-const Category = require('../models/Category')
 
 module.exports = {
     async index(req, res){
